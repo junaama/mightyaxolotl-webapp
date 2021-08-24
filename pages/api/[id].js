@@ -2,7 +2,7 @@ import { INFURA_ADDRESS, ADDRESS, ABI } from "../../config.js";
 import Web3 from "web3";
 
 // @DEV Import JSON metadata - switch to different method later
-import traits from "../../database/traits.json";
+import traits from "../../traits/traits.json";
 
 const infuraAddress = INFURA_ADDRESS;
 
