@@ -16,13 +16,7 @@
 /build
 
 # images
-/image_generation/Backgrounds
-/image_generation/Bandanas
-/image_generation/Eyes
-/image_generation/Inus
-/image_generation/Mouths
-/image_generation/Noses
-/image_generation/output
+/image_generation
 
 # misc
 .DS_Store

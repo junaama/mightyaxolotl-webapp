@@ -7,9 +7,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundImage: theme => ({
-        'black': "url('/images/BG2.jpg')",
-       })
+      
 
     },
   },

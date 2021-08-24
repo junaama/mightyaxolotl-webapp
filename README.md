@@ -1,3 +1,2 @@
-# Generative NFT Tutorial
+# Mighty Axolotl
 
-Follow along [here](https://docs.immortalinu.com/)

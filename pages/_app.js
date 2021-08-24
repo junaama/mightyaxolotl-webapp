@@ -1,9 +1,8 @@
 import 'tailwindcss/tailwind.css'
-import '../styles/style2.css'
-// import '../styles/normalize.css'
-// import '../styles/webflow.css'
+import Nav from "../components/Nav";
+
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <><Nav/><Component {...pageProps} /></>
 }
 
 export default MyApp
