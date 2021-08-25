@@ -1,14 +1,14 @@
-/* This example requires Tailwind CSS v2.0+ */
+
 export default function About() {
     return (
       <div className="relative bg-white overflow-hidden">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-4xl font font-extrabold tracking-tight sm:text-6xl text-ma-green">
                 Welcome to the Mighty Axolotls
               </h1>
-              <p className="mt-4 text-xl text-gray-500">
+              <p className="mt-4 text-xl text-magreen">
                 Mighty Axolotl is a collection of 10,000 Axolotl NFTS on the Ethereum blockchain. 
               </p>
             </div>
@@ -82,7 +82,7 @@ export default function About() {
   
                 <a
                   href="#"
-                  className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
+                  className="inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light "
                 >
                   Mint an Axolotl
                 </a>

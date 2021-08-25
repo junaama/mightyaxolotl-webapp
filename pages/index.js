@@ -6,8 +6,11 @@ export default function Test(){
     return (
         <>
         <About/>
-        <Team/>
+        <hr/>
         <Roadmap/>
+        <hr/>
+        <Team/>
+        <hr/>
         <Accordion/>
         </>
     )

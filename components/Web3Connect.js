@@ -66,11 +66,11 @@ export const Web3Connect = () => {
 
     return (
         <div>
-        <div className="flex auth my-8 font-bold  justify-center items-center vw2">
+        <div className="flex auth my-8 font-bold justify-center items-center vw2">
           {!signedIn ? (
             <button
               onClick={signIn}
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ma-green-dark hover:bg-ma-green-light"
 
             >
               Connect Wallet with Metamask
@@ -78,7 +78,7 @@ export const Web3Connect = () => {
           ) : (
               <div>
             <button
-            className="items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+            className="items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ma-green-dark hover:bg-ma-green-light"
 
             >
               Wallet Connected
