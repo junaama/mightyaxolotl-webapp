@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Web3Connect } from "./Web3Connect";
 
 const navigation = [
-  { name: "About", href: "/", current: true },
+  { name: "About", href: "/#about", current: true },
   { name: "Roadmap", href: "/#roadmap", current: false },
   { name: "Team", href: "/#team", current: false },
   { name: "FAQ", href: "/#faq", current: false },
