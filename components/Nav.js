@@ -38,7 +38,6 @@ export default function Nav() {
                     alt="Mighty Axolotl Logo"
                     className="hidden md:block lg:block h-8 w-auto"
                   />
-                  {/* <p className="hidden lg:block h-8 w-auto">Mighty Axolotl</p> */}
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
