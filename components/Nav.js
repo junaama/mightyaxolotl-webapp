@@ -1,6 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Web3Connect } from "./Web3Connect";
+import Link from "next/link"
 
 const navigation = [
   { name: "About", href: "/#about", current: true },
@@ -29,11 +30,17 @@ export default function Nav() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  <Link href="/">
+                  <a>
+                    <img
                     src="images/axov2.png"
                     alt="Mighty Axolotl Logo"
                     className="hidden md:block lg:block h-8 w-auto"
                   />
+                  </a>
+                  </Link>
+                  
+                  
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
