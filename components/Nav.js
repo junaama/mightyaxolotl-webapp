@@ -34,7 +34,7 @@ export default function Nav() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
+                    src="images/axov1.png"
                     alt="Mighty Axolotl Logo"
                     className="hidden md:block lg:block h-8 w-auto"
                   />
@@ -45,8 +45,7 @@ export default function Nav() {
                       <a
                         key={item.name}
                         href={item.href}
-                      
-                        className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-md font-medium"
+                        className="text-white hover:bg-ma-blue hover:text-white px-3 py-2 rounded-md text-md font-medium"
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
@@ -56,9 +55,7 @@ export default function Nav() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                
                 <Web3Connect />
-               
               </div>
             </div>
           </div>
@@ -70,7 +67,6 @@ export default function Nav() {
                   key={item.name}
                   href={item.href}
                   className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}

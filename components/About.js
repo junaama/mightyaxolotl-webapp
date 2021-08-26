@@ -26,37 +26,14 @@ export default function About() {
                     <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                         <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
+                          src="images/axov1.png"
                           alt=""
                           className="w-full h-full object-center object-contain"
                         />
                       </div>
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
-                          alt=""
-                          className="w-full h-full object-center object-contain"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
-                          alt=""
-                          className="w-full h-full object-center object-contain"
-                        />
-                      </div>
-                      <div className="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
-                          alt=""
-                          className="w-full h-full object-center object-contain"
-                        />
-                      </div>
-                      <div className="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
+                          src="images/axov1.png"
                           alt=""
                           className="w-full h-full object-center object-contain"
                         />
@@ -65,14 +42,37 @@ export default function About() {
                     <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
+                          src="images/axov1.png"
                           alt=""
                           className="w-full h-full object-center object-contain"
                         />
                       </div>
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"
+                          src="images/axov1.png"
+                          alt=""
+                          className="w-full h-full object-center object-contain"
+                        />
+                      </div>
+                      <div className="w-44 h-64 rounded-lg overflow-hidden">
+                        <img
+                          src="images/axov1.png"
+                          alt=""
+                          className="w-full h-full object-center object-contain"
+                        />
+                      </div>
+                    </div>
+                    <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="w-44 h-64 rounded-lg overflow-hidden">
+                        <img
+                          src="images/axov1.png"
+                          alt=""
+                          className="w-full h-full object-center object-contain"
+                        />
+                      </div>
+                      <div className="w-44 h-64 rounded-lg overflow-hidden">
+                        <img
+                          src="images/axov1.png"
                           alt=""
                           className="w-full h-full object-center object-contain"
                         />
@@ -82,7 +82,8 @@ export default function About() {
                 </div>
               </div>
 
-              <Link href="/mint"><a className="inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light">
+              <Link href="/mint">
+                <a className="inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light">
                   Mint an Axolotl
                 </a>
               </Link>

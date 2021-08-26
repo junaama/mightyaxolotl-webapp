@@ -16,6 +16,7 @@ export default function Test(){
         <Team/>
         <hr/>
         <Accordion/>
+        <hr/>
         </>
     )
 }

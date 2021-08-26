@@ -17,7 +17,7 @@ export default function Roadmap() {
             <h1 className="mx-auto font-semibold text-lg text-white">0%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-gray-800 text-xl sm:text-sm ">
+            <p className="font-bold text-gray-800 text-xl lg:text-sm ">
               Early adopters list for the first Discord subscribers.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function Roadmap() {
             <h1 className="mx-auto text-white font-semibold text-lg">25%</h1>
           </div>
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-white text-xl sm:text-sm">
+            <p className="font-bold text-white text-xl lg:text-sm">
               {" "}
               RARE and extremely cute Axolotls airdrop to random holders
             </p>
@@ -44,7 +44,7 @@ export default function Roadmap() {
             <h1 className="mx-auto font-semibold text-lg text-white">50%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-gray-800 text-xl sm:text-sm">
+            <p className="font-bold text-gray-800 text-xl lg:text-sm">
               {" "}
               ETH airdrop to random holders.
             </p>
@@ -58,7 +58,7 @@ export default function Roadmap() {
             <h1 className="mx-auto text-white font-semibold text-lg">75%</h1>
           </div>
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-white text-xl sm:text-sm">
+            <p className="font-bold text-white text-xl lg:text-sm">
               {" "}
               Merchandise and gadget shop grand opening!
             </p>
@@ -71,7 +71,7 @@ export default function Roadmap() {
             <h1 className="mx-auto font-semibold text-lg text-white">100%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-gray-800 text-xl sm:text-sm">
+            <p className="font-bold text-gray-800 text-xl lg:text-sm">
               {" "}
               Artbook release and charity!
             </p>

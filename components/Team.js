@@ -1,3 +1,4 @@
+// import images from "../public/images"
 export default function Team() {
   return (
     <section className="text-gray-600 body-font" id="team">
@@ -16,7 +17,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"              />
+                src="images/axov1.png"             />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-gray-900">
                   @McCallister
@@ -30,7 +31,8 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"              />
+                src="images/axov1.png"              
+                />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-gray-900">
                   @Mimoska
@@ -45,7 +47,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="https://www.giantbomb.com/a/uploads/scale_small/38/382284/3021125-axyblush.png"              />
+                src="images/axov1.png"               />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-gray-900">
                   @nini
