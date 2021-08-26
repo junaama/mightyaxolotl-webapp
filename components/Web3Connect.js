@@ -8,14 +8,14 @@ export const Web3Connect = () => {
 
     useEffect(()=> {
         signIn();
-    })
+    },[])
 
     const signIn = async () => {
         if (typeof window.web3 !== "undefined") {
           // Use existing gateway
           window.web3 = new Web3(window.ethereum);
         } else {
-          alert("No Ethereum interface injected into browser. Read-only access");
+          // alert("No Ethereum interface injected into browser. Read-only access");
         }
     
         window.ethereum

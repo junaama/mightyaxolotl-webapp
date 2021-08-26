@@ -3,7 +3,7 @@ import { ChevronUpIcon } from "@heroicons/react/solid";
 
 export default function Accordion() {
   return (
-    <div className="w-full px-4 pt-16" id="faq">
+    <div className="w-full p-4" id="faq">
       <h1 className="font-bold text-center text-2xl title-font mb-4 text-gray-900">
         FAQ
       </h1>

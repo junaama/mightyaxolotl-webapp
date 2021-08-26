@@ -11,9 +11,7 @@ export default function ScrollUp(){
             if(typeof window !== "undefined"){
                 window.onscroll = () => {
                     let currentScrollPos = window.pageYOffset;
-                    console.log(currentScrollPos)
                     let maxScroll = document.body.scrollHeight - window.innerHeight;
-                    console.log("scr: ", maxScroll)
                     if(currentScrollPos > 400 && currentScrollPos < maxScroll) {
                         setShowScrollButton(true)
                     } else {
