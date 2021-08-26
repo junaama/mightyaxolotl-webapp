@@ -2,12 +2,32 @@ export default function Story() {
   return (
     <section className="m-4" id="about">
       <div>
-      <h2 className="font-bold text-center text-2xl title-font  text-gray-900">
+        <h2 className="font-bold text-center text-2xl title-font mb-4 text-gray-900">
           Our Story
         </h2>
       </div>
       <div>
-          <p className="w-2/3 mx-auto leading-relaxed text-base ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id lacus semper, iaculis arcu quis, porttitor ante. Pellentesque viverra nunc sit amet ante viverra rhoncus. Vestibulum id consectetur turpis. Mauris dui metus, egestas a porttitor et, semper ut est. Sed et scelerisque lectus, ac euismod eros. Nullam tristique tortor vel ligula consequat, sit amet sollicitudin neque viverra. Morbi ultricies ultrices elit, nec venenatis tortor aliquet et.</p>
+        <p className="w-2/3 mx-auto leading-relaxed text-base ">
+          The idea behind Mighty Axolotl comes from our project leader's passion
+          for aquatic life.
+          <br />
+          <br />
+
+          Apart from being extremely cute, the axolotl has unique biological
+          qualities. Axolotls have an extraordinary tissue regeneration ability
+          and share structures with humans, such as feet and digits—which means
+          they are the perfect candidate for regenerative modeling research.
+          Unfortunately, axolotls are a critically endangered species which
+          means their population is quickly decreasing. For the profit of the
+          Mighty Axolotl NFT collection we want to help fund research for
+          modeling regenerative medicine using axolotls.
+          <br />
+          <br />
+
+          Take a look at the roadmap and join our{" "}
+          <a href="https://discord.gg/J4ehYV4Yrz" className="bg-ma-blue p-2 rounded text-white">Discord</a> to be apart of
+          community decisions!
+        </p>
       </div>
     </section>
   );
