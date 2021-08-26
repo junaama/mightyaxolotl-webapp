@@ -12,7 +12,7 @@ export default function ScrollUp(){
                 window.onscroll = () => {
                     let currentScrollPos = window.pageYOffset;
                     let maxScroll = document.body.scrollHeight - window.innerHeight;
-                    if(currentScrollPos > 400 && currentScrollPos < maxScroll) {
+                    if(currentScrollPos > 400) {
                         setShowScrollButton(true)
                     } else {
                         setShowScrollButton(false)
@@ -28,7 +28,9 @@ export default function ScrollUp(){
     const handleScrollUp = () => {
         router.push("/")
     }
-
+    const handleScroll = () => {
+        let e = document.getElementById("")
+    }
     return (
         <div className={showScrollButton ? "fixed bottom-0 p-10 right-0" : "hidden"}>
             <button className="border-radius-5 bg-ma-pink p-2 " onClick={handleScrollUp }>              <ArrowUpIcon className="h-5"/>

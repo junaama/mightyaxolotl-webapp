@@ -18,12 +18,9 @@ export default function Story() {
           and share structures with humans, such as feet and digits—which means
           they are the perfect candidate for regenerative modeling research.
           Unfortunately, axolotls are a critically endangered species which
-          means their population is quickly decreasing. For the profit of the
-          Mighty Axolotl NFT collection we want to help fund research for
-          modeling regenerative medicine using axolotls.
+          means their population is quickly decreasing. For the profit of the Mighty Axolotl NFT collection we want to help fund research and safeguard axolotls.
           <br />
           <br />
-
           Take a look at the roadmap and join our{" "}
           <a href="https://discord.gg/J4ehYV4Yrz" className="text-ma-blue underline">Discord</a> to be apart of
           community decisions!

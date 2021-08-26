@@ -1,4 +1,4 @@
-import 'tailwindcss/tailwind.css'
+import '../index.css'
 import Nav from "../components/Nav";
 import ScrollUp from '../components/ScrollUp';
 import Footer from '../components/Footer';

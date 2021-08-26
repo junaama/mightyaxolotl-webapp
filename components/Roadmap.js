@@ -32,7 +32,7 @@ export default function Roadmap() {
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-bold text-white text-sm sm:text-lg">
               {" "}
-              RARE and extremely cute Axolotls airdrop to random holders
+              RARE and extremely cute Axolotls airdrop to random holders.
             </p>
           </div>
         </div>

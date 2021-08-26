@@ -56,7 +56,7 @@ export default function Accordion() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                Instant reveal!
+                All NFTS are revealed on launch date! Stay tuned.
               </Disclosure.Panel>
             </>
           )}
