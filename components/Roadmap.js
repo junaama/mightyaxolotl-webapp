@@ -73,7 +73,7 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              Artbook release and charity!
+              Community driven charity support!
             </p>
           </div>
         </div>
