@@ -8,7 +8,7 @@ export default function Test(){
     return (
         <>
         <About/>
-        <hr/>
+        
         <Story/>
         <hr/>
         <Roadmap/>

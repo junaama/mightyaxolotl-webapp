@@ -6,10 +6,10 @@ export default function About() {
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <div className="sm:max-w-lg">
-            <h1 className="text-4xl font font-extrabold tracking-tight sm:text-6xl text-ma-green">
-              Welcome to the Mighty Axolotls
+            <h1 className="text-6xl font font-extrabold font-capriola tracking-tight sm:text-8xl text-ma-green">
+              Mighty Axolotls
             </h1>
-            <p className="mt-4 text-xl text-magreen">
+            <p className="font-open-sans mt-4 text-xl text-magreen ">
               Mighty Axolotl is a collection of 10,000 Axolotl NFTS on the
               Ethereum blockchain.
             </p>
@@ -83,7 +83,7 @@ export default function About() {
               </div>
 
               <Link href="/mint">
-                <a className="inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light">
+                <a className="font-open-sans inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light">
                   Mint an Axolotl
                 </a>
               </Link>

@@ -18,6 +18,11 @@ module.exports = {
           DEFAULT: "#77ACA8",
         },
       },
+      fontFamily: {
+        'space-mono': ['Space Mono', 'monospace'],
+        'capriola': ['Capriola', 'sans-serif'],
+        'open-sans': ['Open Sans', 'sans-serif']
+      }
     },
   },
   variants: {

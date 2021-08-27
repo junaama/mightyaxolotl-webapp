@@ -34,7 +34,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div class="text-center text-black  p-4 sm:p-4 font-light flex items-center justify-center">
+          <div class="font-capriola text-center text-black  p-4 sm:p-4 font-light flex items-center justify-center">
             2021 © Mighty Axolotl
           </div>
         </div>

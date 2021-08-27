@@ -28,7 +28,7 @@ export default function Nav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex-1 flex items-center justify-center sm:items-stretch">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
                   <a>
@@ -48,7 +48,7 @@ export default function Nav() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="text-black hover:bg-ma-blue hover:text-white px-3 py-2 rounded-md text-md font-medium"
+                        className="font-capriola text-black hover:bg-ma-blue hover:text-white px-3 py-2 rounded-md text-md font-medium"
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
@@ -69,7 +69,7 @@ export default function Nav() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-black hover:bg-ma-blue hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="font-capriola text-black hover:bg-ma-blue hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}

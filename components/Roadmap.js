@@ -2,10 +2,10 @@ export default function Roadmap() {
   return (
     <div className="mx-auto w-full h-full" id="roadmap">
       <div className="relative wrap overflow-hidden p-10 h-full">
-        <h1 className="font-bold text-center text-2xl title-font mb-4 text-gray-900">
+        <h1 className="font-bold font-capriola text-center text-2xl title-font mb-4 text-gray-900">
           ROADMAP
         </h1>
-        <p className="text-center text-sm mb-4 text-gray-500">Subject to change according to community decisions</p>
+        <p className="font-open-sans text-center text-sm mb-4 text-gray-500">Subject to change according to community decisions</p>
         <div
           className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
           style={{ left: "50%" }}
@@ -17,7 +17,7 @@ export default function Roadmap() {
             <h1 className="mx-auto font-semibold text-lg text-white">0%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-gray-800 text-sm sm:text-lg ">
+            <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg ">
               Early adopters list for the first Discord subscribers.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function Roadmap() {
             <h1 className="mx-auto text-white font-semibold text-lg">25%</h1>
           </div>
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-white text-sm sm:text-lg">
+            <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
               RARE and extremely cute Axolotls airdrop to random holders.
             </p>
@@ -44,7 +44,7 @@ export default function Roadmap() {
             <h1 className="mx-auto font-semibold text-lg text-white">50%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-gray-800 text-sm sm:text-lg">
+            <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
               ETH airdrop to random holders.
             </p>
@@ -58,7 +58,7 @@ export default function Roadmap() {
             <h1 className="mx-auto text-white font-semibold text-lg">75%</h1>
           </div>
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-white text-sm sm:text-lg">
+            <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
               Merchandise and gadget shop grand opening!
             </p>
@@ -71,7 +71,7 @@ export default function Roadmap() {
             <h1 className="mx-auto font-semibold text-lg text-white">100%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <p className="font-bold text-gray-800 text-sm sm:text-lg">
+            <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
               Artbook release and charity!
             </p>
