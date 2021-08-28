@@ -6,4 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 html {
     scroll-behavior: smooth;
+    margin: 0 auto;
+
+}
+body {
+    font-family: 'Capriola', sans-serif;
 }

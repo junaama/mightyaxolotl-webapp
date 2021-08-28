@@ -17,7 +17,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axov2.png"             />
+                src="images/axo1.png"             />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   McCallister
@@ -31,7 +31,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axov1.png"              
+                src="images/axo2.png"              
                 />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
@@ -47,7 +47,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axov1.png"               />
+                src="images/axo3.png"               />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   Naama

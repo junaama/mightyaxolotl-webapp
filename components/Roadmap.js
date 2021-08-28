@@ -18,7 +18,7 @@ export default function Roadmap() {
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg ">
-              Early adopters list for the first Discord subscribers.
+              Early adopters sale for early Discord users.
             </p>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function Roadmap() {
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
-              RARE and extremely cute Axolotls airdrop to random holders.
+              5 RARE and extremely cute Axolotls airdrop to random holders.
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              ETH airdrop to random holders.
+              ETH airdrop to random holders and rarity tools listing.
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Roadmap() {
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
-              Merchandise and gadget shop grand opening!
+             Customized merchandise and gadget gifts!
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              Community driven charity support!
+              Community driven charity or the sweetest airdrop!
             </p>
           </div>
         </div>
