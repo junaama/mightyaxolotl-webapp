@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <section className="p-4 bg-ma-green-light" id="about">
+    <section className="p-4 " id="about">
       <div>
         <h2 className="font-bold font-capriola text-center text-2xl title-font mb-4 text-gray-900">
           Our Story

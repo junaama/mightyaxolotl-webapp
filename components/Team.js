@@ -17,7 +17,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axo1.png"             />
+                src="images/Project_Lead.png"             />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   McCallister
@@ -31,7 +31,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axo2.png"              
+                src="images/Artist.png"              
                 />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
@@ -47,7 +47,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axo3.png"               />
+                src="images/Developer.png"               />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   Naama
@@ -62,7 +62,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axo3.png"               />
+                src="images/Investor.png"               />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   Daduz
@@ -72,21 +72,7 @@ export default function Team() {
               </div>
             </div>
           </div>
-          <div className="p-4 lg:w-1/3 md:w-1/2">
-            <div className="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/axo2.png"               />
-              <div className="w-full">
-                <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
-                  Moscow
-                </h2>
-                <h3 className="font-open-sans text-gray-600 mb-3">Marketing</h3>
-                
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>
