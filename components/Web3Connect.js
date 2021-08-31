@@ -50,18 +50,6 @@ export const Web3Connect = () => {
         let balance = await web3.eth.getBalance(wallet);
         setWalletBalance(balance)
 
-        // const inuContract = new window.web3.eth.Contract(ABI, ADDRESS);
-        // setInuContract(inuContract);
-    
-        // const salebool = await inuContract.methods.saleIsActive().call();
-        // // console.log("saleisActive" , salebool)
-        // setSaleStarted(salebool);
-    
-        // const totalSupply = await inuContract.methods.totalSupply().call();
-        // setTotalSupply(totalSupply);
-    
-        // const inuPrice = await inuContract.methods.inuPrice().call();
-        // setInuPrice(inuPrice);
       }
 
     return (
@@ -73,7 +61,7 @@ export const Web3Connect = () => {
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ma-green-dark hover:bg-ma-green-light"
 
             >
-              Connect Wallet with Metamask
+              Connect Wallet
             </button>
           ) : (
               <div>

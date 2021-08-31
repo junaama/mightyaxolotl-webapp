@@ -11,7 +11,7 @@ export default function Team() {
             The people behind Mighty Axolotl
           </p>
         </div>
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center">
           <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <img
