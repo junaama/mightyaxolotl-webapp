@@ -2,47 +2,33 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="overflow-hidden bg-ma-blue">
-      <div className="flex flex-col place-items-center sm:flex sm:flex-row">
-        {/* <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static"> */}
-
-        <div className="sm:max-w-lg">
-          <img src="images/matitlelg.svg" alt="Mighty Axolotl title" className="w-1/2"/>
-          <p className="font-open-sans mt-4 text-xl text-white ">
-            Mighty Axolotl is a collection of 10,000 Axolotl NFTS on the
-            Ethereum blockchain.
-          </p>
-          <Link href="/mint">
-            <a className="font-open-sans inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light">
-              Mint an Axolotl
-            </a>
-          </Link>
+    <div className="relative px-6 bg-ma-blue">
+      <div className="flex flex-col md:flex-row justify-between max-w-screen-sl mx-auto  items-center">
+        <div className="w-full max-w-screen-sm mx-auto md:mx-0 md:w-6/12 flex-shrink-0 relative">
+          <img
+            src="images/axoh.gif"
+            className="block object-contain max-w-full-lg h-auto p-16 "
+          />
         </div>
+        <div className="w-full max-w-md mx-auto md:max-w-none md:mx-0 md-w-6/12 md:mt-0 md:mr-12 lg:mr-16 md:order-first md:pl-10">
+          <div className="lg:py-8 text-center md:text-left">
+            <img
+              src="images/matitlelg.svg"
+              alt="Mighty Axolotl title"
+              className="md:text-left"
+            />
+            <p className="my-4 font-open-sans text-center md:text-left  md:text-base lg:text-lg font-medium leading-relaxed text-white">
+              Mighty Axolotl is a handdrawn collection of 10,000 cute and mighty axolotls minted as NFTs on the
+              Ethereum blockchain. We aim to support axolotl research and build our community through this collection.{" "}
+            </p>
 
-        <div className="rounded-md  ">
-          <img src="images/axoh.gif" className="object-contain w-auto h-full " />
+            <Link href="/mint">
+              <a className="font-open-sans inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light mb-4">
+                Mint an Axolotl
+              </a>
+            </Link>
+          </div>
         </div>
-
-        {/* <div>
-            <div className="mt-10">
-              <div
-                aria-hidden="true"
-                className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
-              >
-                <div className="absolute sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                  <div className="flex items-center space-x-6 lg:space-x-8">
-                    <div className="block w-full relative">
-
-                  
-                    </div>
-
-                  </div>
-                </div>
-              </div> */}
-
-        {/* </div> */}
-        {/* </div> */}
-        {/* </div> */}
       </div>
     </div>
   );

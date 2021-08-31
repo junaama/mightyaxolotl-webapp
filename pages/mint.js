@@ -110,7 +110,7 @@ export default function Mint() {
   return (
     <div className=" m-4">
        <h1 className="font-capriola text-4xl font font-extrabold sm:text-6xl text-ma-green text-center">
-    Coming Soon
+    Sale is not open yet!
   </h1>
     </div>
    
