@@ -13,7 +13,7 @@ export default function About() {
         <div className="w-full max-w-md mx-auto md:max-w-none md:mx-0 md-w-6/12 md:mt-0 md:mr-12 lg:mr-16 md:order-first md:pl-10">
           <div className="lg:py-8 text-center md:text-left">
             <img
-              src="images/matitle.svg"
+              src="images/matitle.png"
               alt="Mighty Axolotl title"
               className="md:text-left"
             />
