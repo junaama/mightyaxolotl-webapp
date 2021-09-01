@@ -47,7 +47,7 @@ export default function Team() {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/Developer.png"               />
+                src="images/Developer_3.png"               />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   Naama
@@ -65,7 +65,7 @@ export default function Team() {
                 src="images/Investor.png"               />
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
-                  Daduz
+                  McFly
                 </h2>
                 <h3 className="font-open-sans text-gray-600 mb-3">Investor</h3>
                 

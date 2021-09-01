@@ -1,17 +1,17 @@
 export default function Footer() {
   return (
-      <footer class="bg-white w-full bottom-0">
-        <div class="max-w-screen-xl mx-auto">
-          <div class="pt-4 flex max-w-xs mx-auto items-center justify-around">
+      <footer className="bg-white w-full bottom-0">
+        <div className="max-w-screen-xl mx-auto">
+          <div className="pt-4 flex max-w-xs mx-auto items-center justify-around">
             <a
               href="https://twitter.com/axolotlmighty"
-              class="text-black hover:text-ma-blue  transition-colors duration-200"
+              className="text-black hover:text-ma-blue  transition-colors duration-200"
             >
               <svg
                 width="20"
                 height="20"
                 fill="currentColor"
-                class="text-xl hover:text-ma-blue dark:hover:text-black transition-colors duration-200"
+                className="text-xl hover:text-ma-blue dark:hover:text-black transition-colors duration-200"
                 viewBox="0 0 1792 1792"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -20,7 +20,7 @@ export default function Footer() {
             </a>
             <a
               href="https://discord.gg/J4ehYV4Yrz"
-              class="text-black hover:text-ma-blue  transition-colors duration-200"
+              className="text-black hover:text-ma-blue  transition-colors duration-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div class="font-capriola text-center text-black  p-4 sm:p-4 font-light flex items-center justify-center">
+          <div className="font-capriola text-center text-black  p-4 sm:p-4 font-light flex items-center justify-center">
             2021 © Mighty Axolotl
           </div>
         </div>
