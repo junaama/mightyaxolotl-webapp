@@ -28,7 +28,7 @@ export default function Nav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center sm:items-stretch">
+              <div className="flex-1 flex items-center justify-between sm:items-stretch">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
                   <a>
