@@ -33,7 +33,7 @@ export default function Nav() {
                   <Link href="/">
                   <a>
                     <img
-                    src="images/axov2.png"
+                    src="site/logo-min.svg"
                     alt="Mighty Axolotl Logo"
                     className="hidden md:block lg:block h-8 w-auto"
                   />

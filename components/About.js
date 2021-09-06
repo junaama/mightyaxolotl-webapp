@@ -6,7 +6,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row justify-between max-w-screen-sl mx-auto  items-center">
         <div className="w-full max-w-screen-sm mx-auto md:mx-0 md:w-6/12 flex-shrink-0 relative">
           <img
-            src="/site/masite.gif"
+            src="/site/mawebsite.gif"
             className="block object-contain max-w-full-lg h-auto p-16 "
           />
         </div>
