@@ -4,7 +4,7 @@ import {ArrowUpIcon} from '@heroicons/react/outline'
 
 
 export default function ScrollUp(){
-    const [showScrollButton, setShowScrollButton] = useState(true)
+    const [showScrollButton, setShowScrollButton] = useState(false)
     
     useEffect(()=> {
         const scrollLogic = () => {
