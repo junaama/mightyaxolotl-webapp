@@ -43,7 +43,23 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
-
+        <Disclosure as="div" className="mt-2">
+          {({ open }) => (
+            <>
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black bg-ma-green-light rounded-lg hover:bg-ma-green focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                <span className="font-capriola">How do I join the presale? </span>
+                <ChevronUpIcon
+                  className={`${
+                    open ? "transform rotate-180" : ""
+                  } w-5 h-5 text-black`}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-md font-open-sans text-gray-500">
+                Join our Discord and be one of the first 200 people to claim a spot!
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
@@ -97,6 +113,8 @@ export default function Accordion() {
             </>
           )}
         </Disclosure>
+
+      
       </div>
     </div>
   );
