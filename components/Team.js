@@ -1,4 +1,6 @@
 // import images from "../public/images"
+import Image from 'next/image'
+
 export default function Team() {
   return (
     <section className="text-gray-600 body-font bg-ma-pink" id="team">
@@ -14,10 +16,12 @@ export default function Team() {
         <div className="flex flex-wrap lg:flex-nowrap justify-center">
           <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              <img
+              {/* <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/Project_Lead.png"             />
+                src="images/Project_Lead.png"             /> */}
+                                <Image alt="team member" src="/images/Project_Lead.png" width="300" height="300"/>
+
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   McCallister
@@ -28,11 +32,13 @@ export default function Team() {
           </div>
           <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              <img
+              {/* <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
                 src="images/Artist.png"              
-                />
+                /> */}
+                                <Image alt="team member" src="/images/Artist.png" width="300" height="300"/>
+
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   Mimoska
@@ -44,10 +50,12 @@ export default function Team() {
           </div>
           <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              <img
+              {/* <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/Developer_3.png"               />
+                src="images/Developer_3.png"               /> */}
+                                <Image alt="team member" src="/images/Developer_3.png" width="300" height="300"/>
+
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   Naama
@@ -59,10 +67,11 @@ export default function Team() {
           </div>
           <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              <img
+              {/* <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4"
-                src="images/Investor.png"               />
+                src="images/Investor.png"               /> */}
+                <Image alt="team member" src="/images/Investor.png" width="300" height="300"/>
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
                   McFly
