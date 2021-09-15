@@ -17,7 +17,8 @@ export default function About() {
               autoPlay={true}
               loop
               muted="muted"
-              playsInline
+              playsInline={true}
+              preload="yes"
             >
               <source src="/site/masite.mp4" type="video/mp4" />
 
