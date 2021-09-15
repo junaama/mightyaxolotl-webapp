@@ -14,11 +14,10 @@ export default function About() {
             <video
               width="512"
               height="485"
-              autoPlay={true}
-              loop
-              muted="muted"
+              autoPlay="true"
+              loop="true"
+              muted
               playsInline={true}
-              preload="yes"
             >
               <source src="/site/masite.mp4" type="video/mp4" />
 
