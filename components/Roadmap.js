@@ -33,7 +33,7 @@ export default function Roadmap() {
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
 
-              Listing on rarity.tools!
+              Listing on rarity sniper!
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              ETH airdrop to random holders and rarity tools listing.
+              ETH airdrop to random holders.
             </p>
           </div>
         </div>
