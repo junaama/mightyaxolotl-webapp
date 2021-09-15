@@ -1,6 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
 export default function About() {
+
+  function createVideo() {
+    return {__html: `<video
+    loop
+    muted
+    autoplay
+    playsinline
+    preload="metadata"
+    width="512"
+    height="485"
+  >
+  <source src="/site/masite.mp4" type="video/mp4" />
+  <source src="/site/masite.webm" type="video/webm/>
+  </video>`};
+  }
+
+
+
   return (
     <div className="relative px-6 ">
       <div className="flex flex-col md:flex-row justify-between max-w-screen-sl mx-auto  items-center">
@@ -10,20 +28,49 @@ export default function About() {
             className="block object-contain max-w-full-lg h-auto p-16 "
           /> */}
           {/* <Image src="/site/masite.gif" width="512" height="485" layout="responsive"/> */}
-          <div className="block max-w-full-lg h-auto p-16">
-            <video
+
+
+
+
+
+          <div className="block max-w-full-lg h-auto p-16" dangerouslySetInnerHTML={createVideo()}
+>
+            {/* <video
               width="512"
               height="485"
               autoPlay="true"
+              preload="true"
               loop="true"
+              defaultMuted
               muted
               playsInline={true}
             >
               <source src="/site/masite.mp4" type="video/mp4" />
-
               <source src="/site/masite.webm" type="video/webm" />
-            </video>
-          </div>
+              Your browser does not support the video tag.
+            </video> */}
+
+{/* 
+            dangerouslySetInnerHTML={{
+        __html:`
+        <video
+          loop
+          muted
+          autoplay
+          playsinline
+          preload="metadata"
+          width="512"
+          height="485"
+        >
+        <source src="/site/masite.mp4" type="video/mp4" />
+        <source src="/site/masite.webm" type="video/webm/>
+        </video>`
+      }}
+          </div> */}
+
+
+</div>
+
         </div>
         <div className="w-full max-w-md mx-auto md:max-w-none md:mx-0 md-w-6/12 md:mt-0 md:mr-12 lg:mr-16 md:order-first md:pl-10">
           <div className="lg:py-8 text-center md:text-left">
