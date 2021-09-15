@@ -2,21 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function About() {
 
-  function createVideo() {
-    return {__html: `<video
-    loop
-    muted
-    autoplay
-    playsinline
-    preload="metadata"
-    width="512"
-    height="485"
-  >
-  <source src="/site/masite.mp4" type="video/mp4" />
-  <source src="/site/masite.webm" type="video/webm"/>
-  <source src="/site/masite.jpg" type="image/jpeg"/>
-  </video>`};
-  }
+
 
 
 
@@ -28,50 +14,9 @@ export default function About() {
             src="/site/masite.gif"
             className="block object-contain max-w-full-lg h-auto p-16 "
           /> */}
-          {/* <Image src="/site/masite.gif" width="512" height="485" layout="responsive"/> */}
+          <Image src="/site/masitesm.gif" width="512" height="485" layout="responsive" alt="mighty axolotl gif of nfts"/>
 
 
-
-
-
-          <div className="block max-w-full-lg h-auto p-16" dangerouslySetInnerHTML={createVideo()}
->
-
-            {/* <video
-              width="512"
-              height="485"
-              autoPlay="true"
-              preload="true"
-              loop="true"
-              defaultMuted
-              muted
-              playsInline={true}
-            >
-              <source src="/site/masite.mp4" type="video/mp4" />
-              <source src="/site/masite.webm" type="video/webm" />
-              Your browser does not support the video tag.
-            </video> */}
-
-{/* 
-            dangerouslySetInnerHTML={{
-        __html:`
-        <video
-          loop
-          muted
-          autoplay
-          playsinline
-          preload="metadata"
-          width="512"
-          height="485"
-        >
-        <source src="/site/masite.mp4" type="video/mp4" />
-        <source src="/site/masite.webm" type="video/webm/>
-        </video>`
-      }}
-          </div> */}
-
-
-</div>
 
         </div>
         <div className="w-full max-w-md mx-auto md:max-w-none md:mx-0 md-w-6/12 md:mt-0 md:mr-12 lg:mr-16 md:order-first md:pl-10">
