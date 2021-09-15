@@ -13,7 +13,8 @@ export default function About() {
     height="485"
   >
   <source src="/site/masite.mp4" type="video/mp4" />
-  <source src="/site/masite.webm" type="video/webm/>
+  <source src="/site/masite.webm" type="video/webm"/>
+  <source src="/site/masite.jpg" type="image/jpeg"/>
   </video>`};
   }
 
@@ -35,6 +36,7 @@ export default function About() {
 
           <div className="block max-w-full-lg h-auto p-16" dangerouslySetInnerHTML={createVideo()}
 >
+
             {/* <video
               width="512"
               height="485"
