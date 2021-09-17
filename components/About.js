@@ -1,10 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import MintButton from "./MintButton";
 export default function About() {
-
-
-
-
 
   return (
     <div className="relative px-6 ">
@@ -14,7 +11,7 @@ export default function About() {
             src="/site/masite.gif"
             className="block object-contain max-w-full-lg h-auto p-16 "
           /> */}
-          <Image src="/site/masitesm.gif" width="512" height="485" layout="responsive" alt="mighty axolotl gif of nfts"/>
+          <Image src="/site/masite.gif" width="512" height="485" layout="responsive" alt="mighty axolotl gif of nfts"/>
 
 
 
@@ -36,11 +33,13 @@ export default function About() {
               collection.{" "}
             </p>
 
-            <Link href="/mint">
+            {/* <Link href="/mint">
               <a className="font-open-sans inline-block text-center bg-ma-green-dark border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-ma-green-light mb-4">
                 Mint an Axolotl
               </a>
-            </Link>
+            </Link> */}
+
+            <MintButton/>
           </div>
         </div>
       </div>

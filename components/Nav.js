@@ -1,8 +1,8 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Web3Connect } from "./Web3Connect";
+import ConnectButton from "./ConnectButton";
 import Link from "next/link"
-
+import WalletModal from "./WalletModal";
 const navigation = [
   { name: "About", href: "/#about", current: true },
   { name: "Roadmap", href: "/#roadmap", current: false },
@@ -58,7 +58,7 @@ export default function Nav() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <Web3Connect />
+              <WalletModal/>
               </div>
             </div>
           </div>
