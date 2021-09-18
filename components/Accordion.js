@@ -55,7 +55,7 @@ export default function Accordion() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-md font-open-sans text-gray-500">
-                Join our Discord and be one of the first 200 people to claim a spot!
+                Join our Discord and be one of the first 200 people to claim a spot! Presale starts September 20 @ 10PM CEST
               </Disclosure.Panel>
             </>
           )}
@@ -90,7 +90,7 @@ export default function Accordion() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-md font-open-sans text-gray-500">
-                Soon! Keep your eyes posted in  <a href="https://discord.gg/J4ehYV4Yrz" className="text-ma-blue underline">Discord</a> for more details!
+                September 23 @ 10PM CEST! Keep your eyes posted in  <a href="https://discord.gg/J4ehYV4Yrz" className="text-ma-blue underline">Discord</a> for more details!
               </Disclosure.Panel>
             </>
           )}

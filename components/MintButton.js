@@ -80,7 +80,7 @@ const [error, setError] = useState("")
   return (
     <div className="flex flex-row items-baseline mb-4">
       <select
-        className="border border-ma-green py-2 px-8 rounded-lg bg-transparent text-black outline-0 appearance-none bg-no-repeat mr-3"
+        className="border border-white py-2 px-8 rounded-lg bg-transparent text-white outline-0 appearance-none bg-no-repeat mr-3"
         style={{
           backgroundImage: "url(chevrondown.svg)",
           backgroundPositionX: "95%",
@@ -98,6 +98,17 @@ const [error, setError] = useState("")
         <option value="7">7</option>
         <option value="8">8</option>
         <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
       </select>
       <button
         onClick={handleNoSale}
