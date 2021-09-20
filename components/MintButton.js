@@ -100,7 +100,7 @@ export default function MintButton() {
     }
 
     send(selectedAmount, {
-      value: utils.parseEther(String(base)),
+      value: utils.parseEther(String(ethPrice)),
       gasLimit: gasLimit.add(10_000),
     });
   };
