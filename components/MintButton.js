@@ -70,7 +70,9 @@ export default function MintButton() {
       gasLimit: gasLimit.add(10_000),
     });
   };
+ 
   const handlePreSaleMint = async () => {
+    
     if (account === undefined) {
       setError("Connect to your wallet!");
       setIsOpen(true)
@@ -94,14 +96,17 @@ export default function MintButton() {
         value: utils.parseEther(String(ethPrice)),
         from: account,
       });
+     
+
     } catch (error) {
       setError(error.error.message);
       setIsOpen(true)
+      return;
     }
-
+    
     send(selectedAmount, {
       value: utils.parseEther(String(ethPrice)),
-      gasLimit: gasLimit.add(10_000),
+      gasLimit: gasLimit.add(5_000),
     });
   };
 
