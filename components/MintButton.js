@@ -7,8 +7,8 @@ import {
   connectContractToSigner,
 } from "@usedapp/core";
 import ABI from "../lib/ABI.json";
-
-const contractAddress = "0x0641e7993caF7108077322C654E5d65682e7f477";
+import ErrorModal from "./ErrorModal";
+const contractAddress = "0x027DB5D422A898E342bC0Af63Fba8C5Eeb437A8E";
 const IContract = new utils.Interface(ABI);
 
 const contract = new Contract(contractAddress, IContract);
@@ -17,17 +17,18 @@ export default function MintButton() {
   const { account, library, chainId } = useEthers();
   const [selectedAmount, setSelectedAmount] = useState(1);
   const base = 0.02;
-
-const [error, setError] = useState("")
+  const [isOpen, setIsOpen] = useState(false)
+  const [errorMsg, setError] = useState("")
   const [ethPrice, updateEthPrice] = useState(base);
-  
+
   useEffect(() => {
     updateEthPrice(selectedAmount * base);
   }, [selectedAmount]);
 
-  const { state, send } = useContractFunction(contract, "femaleSaleMint", {
-    transactionName: "femaleSaleMint",
+  const { state, send } = useContractFunction(contract, "preSaleMint", {
+    transactionName: "Presale Mint",
   });
+
 
   useEffect(() => {
     if (state.errorMessage) {
@@ -39,7 +40,8 @@ const [error, setError] = useState("")
     if (account !== undefined && chainId !== 1) {
       alert("Connect to the Ethereum mainnet!");
     }
-  }, [chainId]);
+  }, []);
+
   let gasLimit;
 
   const handleMint = async () => {
@@ -56,14 +58,45 @@ const [error, setError] = useState("")
       undefined,
       library
     );
-
     try {
-      gasLimit = await signedContract.estimateGas.femaleSaleMint(
-        selectedAmount,
-        { from: account }
-      );
+      gasLimit = await signedContract.estimateGas.mint(selectedAmount, {
+        from: account,
+      });
     } catch (error) {
       console.error(error);
+    }
+    send(selectedAmount, {
+      value: utils.parseEther(String(base)),
+      gasLimit: gasLimit.add(10_000),
+    });
+  };
+  const handlePreSaleMint = async () => {
+    if (account === undefined) {
+      setError("Connect to your wallet!");
+      setIsOpen(true)
+      // alert("Connect to your wallet!");
+      return;
+    }
+    if (chainId !== 1) {
+      setError("Connect to the Ethereum mainnet!");
+      setIsOpen(true)
+      // alert("Connect to the Ethereum mainnet!");
+      return;
+    }
+    const signedContract = await connectContractToSigner(
+      contract,
+      undefined,
+      library
+    );
+
+    try {
+      gasLimit = await signedContract.estimateGas.preSaleMint(selectedAmount, {
+        value: utils.parseEther(String(ethPrice)),
+        from: account,
+      });
+    } catch (error) {
+      setError(error.error.message);
+      setIsOpen(true)
     }
 
     send(selectedAmount, {
@@ -73,11 +106,14 @@ const [error, setError] = useState("")
   };
 
   const handleNoSale = () => {
-      alert("Minting hasn't started yet")
-  }
+    alert("Minting hasn't started yet");
+  };
   const isDisabled = state.status === "Mining";
 
   return (
+    <>
+        {isOpen ? (<ErrorModal errorMessage={errorMsg} isOpen={isOpen} setIsOpen={setIsOpen}/>) : ""}
+
     <div className="flex flex-row items-baseline mb-4">
       <select
         className="border border-white py-2 px-8 rounded-lg bg-transparent text-white outline-0 appearance-none bg-no-repeat mr-3"
@@ -111,7 +147,7 @@ const [error, setError] = useState("")
         <option value="20">20</option>
       </select>
       <button
-        onClick={handleNoSale}
+        onClick={handlePreSaleMint}
         className="relative border-none outline-none bg-ma-green-dark py-3 px-2 text-white rounded-lg"
         disabled={isDisabled}
       >
@@ -119,5 +155,6 @@ const [error, setError] = useState("")
         Mint {selectedAmount} - {ethPrice}ETH
       </button>
     </div>
+    </>
   );
 }
