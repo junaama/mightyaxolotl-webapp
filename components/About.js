@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MintButton from "./MintButton";
+import MintCounter from "./MintCounter";
 export default function About() {
 
   return (
@@ -25,6 +26,7 @@ export default function About() {
               collection.{" "}
             </p>
             <MintButton/>
+            <MintCounter/>
           </div>
         </div>
       </div>
