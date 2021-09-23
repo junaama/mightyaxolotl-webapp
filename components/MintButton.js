@@ -25,10 +25,9 @@ export default function MintButton() {
     updateEthPrice(selectedAmount * base);
   }, [selectedAmount]);
 
-  const { state, send } = useContractFunction(contract, "preSaleMint", {
-    transactionName: "Presale Mint",
+  const { state, send } = useContractFunction(contract, "mint", {
+    transactionName: "Mighty Mint",
   });
-
 
   useEffect(() => {
     if (state.errorMessage) {
@@ -46,11 +45,14 @@ export default function MintButton() {
 
   const handleMint = async () => {
     if (account === undefined) {
-      alert("Connect to your wallet!");
+      setError("Connect to your wallet!");
+      setIsOpen(true)
+      // alert("Connect to your wallet!");
       return;
     }
     if (chainId !== 1) {
-      alert("Connect to the Ethereum mainnet!");
+      setError("Connect to the Ethereum mainnet!");
+      setIsOpen(true)
       return;
     }
     const signedContract = await connectContractToSigner(
@@ -60,14 +62,18 @@ export default function MintButton() {
     );
     try {
       gasLimit = await signedContract.estimateGas.mint(selectedAmount, {
+        value: utils.parseEther(String(ethPrice)),
         from: account,
       });
     } catch (error) {
-      console.error(error);
+      setError(error.error.message);
+      setIsOpen(true)
+      return;
+      //console.error(error);
     }
     send(selectedAmount, {
-      value: utils.parseEther(String(base)),
-      gasLimit: gasLimit.add(10_000),
+      value: utils.parseEther(String(ethPrice)),
+      gasLimit: gasLimit.add(5_000),
     });
   };
  
@@ -92,7 +98,7 @@ export default function MintButton() {
     );
 
     try {
-      gasLimit = await signedContract.estimateGas.preSaleMint(selectedAmount, {
+      gasLimit = await signedContract.estimateGas.mint(selectedAmount, {
         value: utils.parseEther(String(ethPrice)),
         from: account,
       });
@@ -111,7 +117,9 @@ export default function MintButton() {
   };
 
   const handleNoSale = () => {
-    alert("Minting hasn't started yet");
+    setError("Minting period is closed");
+      setIsOpen(true)
+      return;
   };
   const isDisabled = state.status === "Mining";
 
@@ -152,7 +160,7 @@ export default function MintButton() {
         <option value="20">20</option>
       </select>
       <button
-        onClick={handlePreSaleMint}
+        onClick={handleMint}
         className="relative border-none outline-none bg-ma-green-dark py-3 px-2 text-white rounded-lg"
         disabled={isDisabled}
       >
