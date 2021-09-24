@@ -4,17 +4,18 @@ import Web3 from "web3";
 import features from "../../traits/features.json";
 
 const infuraAddress = INFURA_ADDRESS;
-const totalAxo = 10000;
+// const totalAxo = 10000;
+
 const AXOLOTLApi = async (req, res) => {
   const provider = new Web3.providers.HttpProvider(infuraAddress);
   const web3infura = new Web3(provider);
   const AXOLOTLContract = new web3infura.eth.Contract(ABI, ADDRESS);
 
-  // const totalSupply = await AXOLOTLContract.methods.totalSupply().call();
+  const totalSupply = await AXOLOTLContract.methods.totalSupply().call();
   
   const query = req.query.id;
 
-  if (parseInt(query) < totalAxo) {
+  if (parseInt(query) < totalSupply) {
     
     let tokenName = `Mighty Axolotl #${query}`;
     const feature = features[parseInt(query)];
