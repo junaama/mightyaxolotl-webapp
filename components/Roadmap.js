@@ -18,7 +18,7 @@ export default function Roadmap() {
           </div>
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-white text-sm sm:text-lg ">
-              Early adopters sale for early Discord users.
+              Early adopters sale for early Discord users!
             </p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Roadmap() {
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
 
-              Listing on rarity sniper!
+              Listing on Rarity Sniper!
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Roadmap() {
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
 
-              5 RARE and extremely cute Axolotls airdrop to random holders.
+              5 RARE and extremely cute Axolotls airdrop to random holders!
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              Rarity tools listing!
+              Rarity Tools listing &
               ETH airdrop to random holders.
             </p>
           </div>
@@ -90,7 +90,7 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              Community driven charity or the sweetest artbook!
+              10% to community driven charity!
             </p>
           </div>
         </div>
