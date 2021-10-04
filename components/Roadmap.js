@@ -27,7 +27,7 @@ export default function Roadmap() {
            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div className="order-1 w-5/12"></div>
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">10%</h1>
+            <h1 className="mx-auto text-white font-semibold text-lg">5%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
