@@ -58,7 +58,7 @@ export default function Team() {
 
               <div className="w-full">
                 <h2 className="font-capriola title-font font-medium text-lg text-gray-900">
-                  Naama
+                  Nini
                 </h2>
                 <h3 className="font-open-sans text-gray-600 mb-3">Developer</h3>
                 
