@@ -65,7 +65,7 @@ export default function Roadmap() {
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
 
-              5 RARE and extremely cute Axolotls airdrop to random holders!
+              Rarity Tools listing & 2 RARE Axolotls airdrop to holders!
             </p>
           </div>
         </div>
@@ -79,13 +79,12 @@ export default function Roadmap() {
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              Rarity Tools listing &
-              ETH airdrop to random holders.
+              2 RARE Axolotls & 2 ETH airdrops to holders | 1 ETH into community wallet!
             </p>
           </div>
         </div>
 
-        {/* <!-- left timeline --> */}
+        {/* <!-- right timeline --> */}
         <div className="mb-8 flex justify-between  items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-8 rounded-full">
@@ -94,20 +93,35 @@ export default function Roadmap() {
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
-             Customized merchandise and gadget gifts!
+             1 RARE Axolotl & 0.8 ETH airdrops to holders | 1 ETH into community wallet!
             </p>
           </div>
         </div>
 
-        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+        {/* <!-- left timeline --> */}
+        <div className="mb-8 flex justify-between items-center flex-row-reverse w-full left-timeline">
           <div className="order-1 w-5/12"></div>
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">100%</h1>
+            <h1 className="mx-auto font-semibold text-lg text-white">90%</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
-              10% to community driven charity!
+              2 ETH into community wallet!
+            </p>
+          </div>
+        </div>
+
+        {/* <!-- right timeline --> */}
+        <div className="mb-8 flex justify-between  items-center w-full right-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-8 rounded-full">
+            <h1 className="mx-auto text-white font-semibold text-lg">100%</h1>
+          </div>
+          <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <p className="font-capriola font-bold text-white text-sm sm:text-lg">
+              {" "}
+              10% charity to Amphibian Foundation!
             </p>
           </div>
         </div>
