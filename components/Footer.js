@@ -19,7 +19,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://discord.gg/J4ehYV4Yrz"
+              href="https://discord.gg/mightyaxolotl"
               className="text-black hover:text-ma-blue  transition-colors duration-200"
             >
               <svg
