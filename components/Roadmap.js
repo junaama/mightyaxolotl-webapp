@@ -66,7 +66,7 @@ export default function Roadmap() {
               {" "}
 
               Rarity Tools listing!
-              </br>
+              <br/>
               2 RARE Axolotls airdrop to holders!
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function Roadmap() {
             <p className="font-capriola font-bold text-gray-800 text-sm sm:text-lg">
               {" "}
               2 RARE Axolotls & 2 ETH airdrops to holders!
-              </br>
+              <br/>
               1 ETH into community wallet!
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function Roadmap() {
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
              1 RARE Axolotl & 0.8 ETH airdrops to holders!
-             </br>
+             <br/>
              1 ETH into community wallet!
             </p>
           </div>
