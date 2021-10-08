@@ -22,8 +22,7 @@ export default function About() {
             <p className="my-4 font-open-sans text-center md:text-left  md:text-base lg:text-lg font-medium leading-relaxed text-black">
               Mighty Axolotl is a hand-drawn collection of 10,000 cute and
               mighty axolotls minted as NFTs on the Ethereum blockchain. We aim
-              to support axolotl research and build our community through this
-              collection.{" "}
+              to support environmental safeguard for the species.{" "}
             </p>
             <MintButton/>
             <MintCounter/>
