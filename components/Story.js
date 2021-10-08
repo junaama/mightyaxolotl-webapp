@@ -22,7 +22,7 @@ export default function Story() {
           <br />
           <br />
           Take a look at the roadmap and join our{" "}
-          <a href="https://discord.gg/J4ehYV4Yrz" className="text-white underline">Discord</a> to be apart of
+          <a href="https://discord.gg/mightyaxolotl" className="text-white underline">Discord</a> to be apart of
           community decisions!
         </p>
       </div>
