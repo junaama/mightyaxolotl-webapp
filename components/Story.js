@@ -14,11 +14,11 @@ export default function Story() {
           <br />
 
           Apart from being extremely cute, the axolotl has unique biological
-          qualities. Axolotls have an extraordinary tissue regeneration ability
-          and share structures with humans, such as feet and digits—which means
-          they are the perfect candidate for regenerative modeling research.
-          Unfortunately, axolotls are a critically endangered species which
-          means their population is quickly decreasing. For the profit of the Mighty Axolotl NFT collection we want to help fund research and safeguard axolotls.
+          qualities. In fact, axolotls have an extraordinary tissue regeneration ability
+          and share structures with humans, such as feet and digits, which means
+          they are the perfect candidates for regenerative modeling research.
+          Unfortunately, axolotls are a critically endangered species, which
+          means their population is quickly decreasing. We will donate 10% of project earnings to axolotls and amphibian environmental safeguard.
           <br />
           <br />
           Take a look at the roadmap and join our{" "}
