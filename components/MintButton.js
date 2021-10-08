@@ -128,6 +128,11 @@ export default function MintButton() {
         {isOpen ? (<ErrorModal errorMessage={errorMsg} isOpen={isOpen} setIsOpen={setIsOpen}/>) : ""}
 
     <div className="flex flex-row items-baseline mb-4">
+      <p className="font-capriola font-bold text-white text-sm sm:text-lg">
+              {" "}
+
+              First window is closed, launch coming soon!
+            </p>
 {/*      <select
         className="border border-white py-2 px-8 rounded-lg bg-transparent text-white outline-0 appearance-none bg-no-repeat mr-3"
         style={{
