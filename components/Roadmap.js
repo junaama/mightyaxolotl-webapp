@@ -127,7 +127,7 @@ export default function Roadmap() {
           <div className="order-1 bg-ma-pink rounded-lg shadow-xl w-5/12 px-6 py-4">
             <p className="font-capriola font-bold text-white text-sm sm:text-lg">
               {" "}
-              10% charity to Amphibian Foundation!
+              10% charity to environmental safeguard!
             </p>
           </div>
         </div>
